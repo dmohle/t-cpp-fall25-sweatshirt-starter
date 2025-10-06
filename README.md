@@ -133,43 +133,53 @@ The NWS API returns a JSON structure like:
     ]
   }
 }
-The program extracts temperature, temperatureUnit, and shortForecast to build a simple weather summary.
+The program extracts **`temperature`**, **`temperatureUnit`**, and **`shortForecast`** to build a simple weather summary.
 
-🧑‍💻 Real-World Relevance
+---
+
+## 🧑‍💻 Real-World Relevance
 
 This program mirrors how many modern apps work:
 
-Weather apps
+- 🌦️ **Weather apps**  
+- 💹 **Stock tickers**  
+- 🤖 **AI chatbots**  
+- 🗞️ **News aggregators**
 
-Stock tickers
+All are **clients** that fetch data from remote **servers** using APIs.
 
-AI chatbots
+---
 
-News aggregators
+## 🧩 Next Steps (Optional Challenge)
 
-All are clients that fetch data from remote servers using APIs.
+Try editing the gridpoint in `main()`:
 
-🧩 Next Steps (Optional Challenge)
-
-Try editing the gridpoint in main():
-
+```cpp
 const string url = "https://api.weather.gov/gridpoints/HNX/53,100/forecast";
-
 You can find gridpoints for other U.S. cities here:
 👉 https://www.weather.gov/documentation/services-web-api
 
 Then rebuild and see the forecast for your hometown!
 
 🧱 Project Credits
+
 Instructor: Dennis Mohle, Fresno City College
+
 Libraries:
+
 libcurl
  — for HTTPS client connections
+
 nlohmann/json
  — for JSON parsing
-Data Source: National Weather Service API
+
+Data Source:
+
+National Weather Service API
 
 🏁 License
+
 Educational use only.
 © 2025 Fresno City College — CIT-66 Programming in C++.
----
+
+
