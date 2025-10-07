@@ -28,20 +28,20 @@ Your program connects to the **National Weather Service (NWS) API** to retrieve 
 ## 📂 Project Root Folder: /sweatShirt
 ##
 ## /sweatShirt
-##   CMakeLists.txt              // Build configuration for CLion/CMake
-##   doIneedAsweatShirt.cpp      // Main source file
-##   /include                    // Header-only libraries
-##     /curl                     // libcurl headers
-##       curl.h
-##       easy.h
-##       curlver.h
-##     /nlohmann                  // JSON library (header-only)
-##       json.hpp
-##   lib/                        // Prebuilt static libraries
-##     libcurl.a                 // libcurl (static)
-##   certs/                      // TLS certificate bundle for HTTPS
-##     cacert.pem
-##  /cmake-build-debug             // Auto-generated build output (binary lives here)
+## --CMakeLists.txt              // Build configuration for CLion/CMake
+## --doIneedAsweatShirt.cpp      // Main source file
+## --/include                    // Header-only libraries
+## ----/curl                     // libcurl headers
+## ------curl.h
+## ------easy.h
+## ------curlver.h
+## ----/nlohmann                  // JSON library (header-only)
+## ------json.hpp
+## --lib/                        // Prebuilt static libraries
+## ----libcurl.a                 // libcurl (static)
+## --certs/                      // TLS certificate bundle for HTTPS
+## ----cacert.pem
+## --/cmake-build-debug             // Auto-generated build output (binary lives here)
 
 
 ---
