@@ -36,7 +36,7 @@ Your program connects to the **National Weather Service (NWS) API** to retrieve 
 ## ------easy.h
 ## ------curlver.h
 ## ----/nlohmann                  // JSON library (header-only)
-## ------json.hpp
+## ----json.hpp
 ## --lib/                        // Prebuilt static libraries
 ## ----libcurl.a                 // libcurl (static)
 ## --certs/                      // TLS certificate bundle for HTTPS
