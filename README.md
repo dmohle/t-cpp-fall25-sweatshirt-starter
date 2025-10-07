@@ -60,7 +60,6 @@ sweatShirt/
 └── /certs
 └── cacert.pem ← certificate bundle for HTTPS
 
-
 ---
 
 ## ⚙️ How to Open and Run in CLion
