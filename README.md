@@ -24,7 +24,6 @@ Your program connects to the **National Weather Service (NWS) API** to retrieve 
 
 ---
 
-## 📂 Folder Structure:
 ## 📂 Project Root Folder: /sweatShirt
 ##
 ## /sweatShirt
@@ -60,22 +59,6 @@ Your program connects to the **National Weather Service (NWS) API** to retrieve 
 - REST APIs  
 - JSON data parsing  
 - Client–Server architecture in action  
-
----
-
-## 📂 Folder Structure
-sweatShirt/
-├── CMakeLists.txt ← build configuration for CLion
-├── doIneedAsweatShirt.cpp ← main source code
-├── /include ← header files
-│ ├── /curl ← networking library headers
-│ └── /nlohmann ← JSON parser header
-├── /lib
-│ └── libcurl.a ← static library (libcurl)
-└── /certs
-└── cacert.pem ← certificate bundle for HTTPS
-
----
 
 ## ⚙️ How to Open and Run in CLion
 
