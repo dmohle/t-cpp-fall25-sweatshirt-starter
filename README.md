@@ -162,24 +162,19 @@ You can find gridpoints for other U.S. cities here:
 Then rebuild and see the forecast for your hometown!
 
 🧱 Project Credits
-
 Instructor: Dennis Mohle, Fresno City College
 
 Libraries:
 
-libcurl
- — for HTTPS client connections
+libcurl — for HTTPS client connections
 
-nlohmann/json
- — for JSON parsing
+nlohmann/json — for JSON parsing
 
 Data Source:
 
 National Weather Service API
 
 🏁 License
-
 Educational use only.
 © 2025 Fresno City College — CIT-66 Programming in C++.
-
 
